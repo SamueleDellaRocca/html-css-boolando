@@ -6,7 +6,7 @@
 .container {
     width: 1100px;
     margin: auto;
-    background-color: green;
+    /* background-color: yellow; */
     height: 2000px;
 }
 
@@ -67,4 +67,22 @@
 .caratteristica {
     background-color: green;
     padding: 5px 3px;
+}
+
+.dettagli-vestito {
+    margin-top: 10px;
+    color: black;
+}
+
+.nome-vestito {
+    font-weight: bolder;
+}
+
+.rosso {
+    color: red;
+    margin-right: 5px;
+}
+
+.barrato {
+    text-decoration: line-through;
 }
