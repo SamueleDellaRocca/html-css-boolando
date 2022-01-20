@@ -24,7 +24,7 @@
 .card {
     width: 31%;
     margin-right: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     float: left;
 }
 
@@ -95,6 +95,7 @@
 .rosso {
     color: red;
     margin-right: 5px;
+    font-weight: bold;
 }
 
 .barrato {
