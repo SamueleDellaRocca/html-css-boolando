@@ -39,6 +39,20 @@
     filter: brightness(0.9);
 }
 
+/* questa è la foto nascosta */
+.img {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+/* con questo faccio apparire l immagine con l hover  */
+.card:hover .img {
+    visibility: visible;
+}
+
 .cuore {
     font-size: 25px;
     background-color: rgb(255, 255, 255);
